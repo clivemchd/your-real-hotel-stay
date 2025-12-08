@@ -1,81 +1,93 @@
-# Your Real Hotel Stay
+<div align="center">
+  <img src="images/icon128.png" alt="Your Real Hotel Stay Logo" width="128" height="128">
 
-"Your Real Hotel Stay" is a Chrome extension that uses advanced Google AI models to realistically add people to empty hotel marketing images. See what the hotel might actually look like with guests!
+  # 🏨 Your Real Hotel Stay
 
-## Features
-- **AI-Powered Image Editing**: Uses Google's Gemini models to seamlessly add people to images.
-- **Model Selection**: Choose between "Nano Banana" (`gemini-2.5-flash-image`) and "Nano Banana Pro" (`gemini-3-pro-image-preview`).
-- **Custom Prompts**: Customize the instruction given to the AI (e.g., "add happy families", "add business travelers").
-- **Simple Interface**: Just hover over any image on a hotel booking site and click "Add People (AI)".
+  **See hotels as they really are — full of life!**
+  
+  [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge&logo=google-chrome)](https://developer.chrome.com/docs/extensions/mv3/intro/)
+  [![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Gemini%20AI-8E75B2?style=for-the-badge&logo=google)](https://ai.google.dev/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## Supported Browsers
-This extension is built with **Manifest V3** and works natively on all Chromium-based browsers:
-- **Google Chrome**
-- **Microsoft Edge**
-- **Brave**
-- **Opera**
-- **Vivaldi**
-- **Arc**
+  <p align="center">
+    "Your Real Hotel Stay" uses advanced Google AI to realistically add people to empty hotel marketing images.<br>
+    <b>No more ghost towns. See the vibe before you book.</b>
+  </p>
 
-*Note: Firefox and Safari are not currently supported out-of-the-box.*
+  [🎥 Watch the Installation Tutorial](https://www.youtube.com/watch?v=NH5CPm9pyts)
+</div>
 
-## Installation
+---
 
-**Watch the video tutorial:** [How to Install (YouTube)](https://www.youtube.com/watch?v=NH5CPm9pyts)
+## ✨ Features
 
-### Option 1: The Easy Way (Download ZIP)
-1.  **Download the file**: [Click here to download the extension ZIP file](./zip/your-real-hotel-stay-v1.0.0.zip).
-2.  **Unzip the file**: Find the downloaded `your-real-hotel-stay-v1.0.0.zip` on your computer and double-click it to extract it. This will create a folder with the extension files.
-3.  **Open Chrome Extensions**: 
-    *   Open Google Chrome.
-    *   Type `chrome://extensions/` in the address bar and press Enter.
-4.  **Enable Developer Mode**: 
-    *   Look at the top right corner of the page.
-    *   Turn on the switch that says **Developer mode**.
-5.  **Load the Extension**:
-    *   Click the **Load unpacked** button that appeared in the top left.
-    *   Select the folder you just extracted (unzipped).
-6.  **Done!** You should now see the "Your Real Hotel Stay" icon in your browser toolbar.
+- 🤖 **AI-Powered Magic**: Uses Google's **Gemini 2.5 Flash** & **Gemini 3 Pro** models to seamlessly inpaint people into scenes.
+- 🎨 **Customizable Vibe**: Tell the AI what you want — "happy families", "digital nomads", or "party crowd".
+- ⚡ **Instant Preview**: Hover over any image on a booking site and click **"Add People (AI)"**.
+- 🧠 **Smart Model Selection**: Choose between speed ("Nano Banana") or quality ("Nano Banana Pro").
 
-### Installation on Other Browsers
+---
 
-The steps are almost identical, just the address bar URL is different:
+## 🌐 Supported Browsers
 
-*   **Microsoft Edge**:
-    1.  Go to `edge://extensions`
-    2.  Enable **Developer mode** (toggle in the sidebar or bottom left).
-    3.  Click **Load unpacked** and select the extension folder.
+Built with **Manifest V3**, this extension runs natively on all Chromium-based browsers:
 
-*   **Brave**:
-    1.  Go to `brave://extensions`
-    2.  Enable **Developer mode** (top right).
-    3.  Click **Load unpacked**.
+| Browser | Status |
+| :--- | :---: |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="24"/> **Google Chrome** | ✅ |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" width="24"/> **Microsoft Edge** | ✅ |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/brave/brave_48x48.png" width="24"/> **Brave** | ✅ |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" width="24"/> **Opera** | ✅ |
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png" width="24"/> **Vivaldi** | ✅ |
+| **Arc Browser** | ✅ |
 
-*   **Opera**:
-    1.  Go to `opera://extensions`
-    2.  Enable **Developer mode** (top right).
-    3.  Click **Load unpacked**.
+---
 
-*   **Arc**:
-    1.  Go to `arc://extensions`
-    2.  Enable **Developer mode** (top right).
-    3.  Click **Load unpacked**.
+## 🚀 Installation
 
-### Option 2: For Developers (Git)
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    ```
-2.  Follow steps 3-5 above, selecting the `your-real-hotel-stay` folder.
+### Option 1: The Easy Way (Download ZIP) 📦
 
-## Usage
-1. Click the extension icon in your browser toolbar.
-2. Enter your **Google AI Studio API Key**. (Get one [here](https://aistudio.google.com/app/apikey)).
-3. Select your preferred AI Model.
-4. (Optional) Customize the AI Prompt.
-5. Visit any hotel booking website (e.g., Booking.com, Expedia).
-6. Hover over a hotel image and click the **"Add People (AI)"** button.
-7. Wait for the magic to happen!
+1.  **📥 Download**: [Click here to download the extension ZIP file](./zip/your-real-hotel-stay-v1.0.0.zip).
+2.  **📂 Unzip**: Extract the downloaded file to a folder on your computer.
+3.  **🔧 Open Extensions**:
+    *   **Chrome**: Go to `chrome://extensions/`
+    *   **Edge**: Go to `edge://extensions`
+    *   **Brave**: Go to `brave://extensions`
+    *   **Opera**: Go to `opera://extensions`
+    *   **Vivaldi**: Go to `vivaldi://extensions`
+    *   **Arc**: Go to `arc://extensions`
+4.  **🔛 Developer Mode**: Toggle the **"Developer mode"** switch (usually in the top right).
+5.  **📂 Load Unpacked**: Click the **"Load unpacked"** button and select the folder you extracted.
+6.  **🎉 Done!** Pin the extension to your toolbar and start using it.
 
-## Disclaimer
-This extension is a fun project and is not affiliated with any hotel booking platform or Google. AI-generated images may vary in quality and accuracy.
+### Option 2: For Developers (Git) 💻
+
+```bash
+git clone https://github.com/yourusername/your-real-hotel-stay.git
+cd your-real-hotel-stay
+# Follow steps 3-5 above, selecting this folder
+```
+
+---
+
+## 🎮 Usage
+
+1.  **🔑 Setup**: Click the extension icon and enter your [Google AI Studio API Key](https://aistudio.google.com/app/apikey).
+2.  **⚙️ Configure**: Select your preferred model (Nano Banana is faster!).
+3.  **🏨 Browse**: Go to Booking.com, Expedia, or any hotel site.
+4.  **✨ Magic**: Hover over a hotel image and click the **"Add People (AI)"**.
+
+---
+
+## ⚠️ Disclaimer
+
+> This extension is a fun project and is not affiliated with any hotel booking platform or Google. 
+> AI-generated images are for visualization purposes only and may vary in quality and accuracy.
+
+<div align="center">
+  <br>
+  <p>Made with ❤️ by <a href="https://x.com/MoneOunchPan">@MoneOunchPan</a></p>
+  <a href="https://buy.stripe.com/8x23cw1xvfVr3oEbKvawo01">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee">
+  </a>
+</div>
