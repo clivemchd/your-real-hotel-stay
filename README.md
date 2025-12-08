@@ -9,11 +9,29 @@
 - **Simple Interface**: Just hover over any image on a hotel booking site and click "Add People (AI)".
 
 ## Installation
-1. Clone or download this repository.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable **Developer mode** in the top right corner.
-4. Click **Load unpacked**.
-5. Select the `your-real-hotel-stay` folder.
+
+**Watch the video tutorial:** [How to Install (YouTube)](https://www.youtube.com/watch?v=NH5CPm9pyts)
+
+### Option 1: The Easy Way (Download ZIP)
+1.  **Download the file**: [Click here to download the extension ZIP file](./zip/your-real-hotel-stay-v1.0.0.zip).
+2.  **Unzip the file**: Find the downloaded `your-real-hotel-stay-v1.0.0.zip` on your computer and double-click it to extract it. This will create a folder with the extension files.
+3.  **Open Chrome Extensions**: 
+    *   Open Google Chrome.
+    *   Type `chrome://extensions/` in the address bar and press Enter.
+4.  **Enable Developer Mode**: 
+    *   Look at the top right corner of the page.
+    *   Turn on the switch that says **Developer mode**.
+5.  **Load the Extension**:
+    *   Click the **Load unpacked** button that appeared in the top left.
+    *   Select the folder you just extracted (unzipped).
+6.  **Done!** You should now see the "Your Real Hotel Stay" icon in your browser toolbar.
+
+### Option 2: For Developers (Git)
+1.  Clone this repository:
+    ```bash
+    git clone https://github.com/yourusername/your-repo-name.git
+    ```
+2.  Follow steps 3-5 above, selecting the `your-real-hotel-stay` folder.
 
 ## Usage
 1. Click the extension icon in your browser toolbar.
