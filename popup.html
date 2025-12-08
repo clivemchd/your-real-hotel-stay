@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="header">
+        <img src="images/icon48.png" alt="Icon" class="header-icon">
+        <h1>Your Real Hotel Stay</h1>
+        <p class="description">Adds people to hotel images using Nano Banana. Removes the hotel marketing and shows you how it will really look like.</p>
+      </div>
+
+      <div class="section how-it-works">
+        <h3>How it works</h3>
+        <ol>
+          <li>Enter your Google AI Studio API Key below.</li>
+          <li>Visit any hotel booking website.</li>
+          <li>Hover over an image and click <strong>"Add People (AI)"</strong>.</li>
+        </ol>
+      </div>
+
+      <hr>
+
+      <div class="section">
+        <h3>API Key</h3>
+        <p class="small-text">
+          Need a key? <a href="https://aistudio.google.com/app/apikey" target="_blank">Create API Key</a>
+        </p>
+        
+        <div id="keyInputContainer">
+          <input type="password" id="apiKey" placeholder="Enter API Key">
+          <button id="saveKeyBtn" style="margin-top: 8px;">Save Key</button>
+        </div>
+        
+        <div id="keySavedContainer" style="display:none; align-items: center; gap: 10px;">
+          <span style="color: green; font-weight: 500;">✓ Key Saved</span>
+          <button id="removeKeyBtn" class="danger-btn">Remove Key</button>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>AI Model</h3>
+        <select id="modelSelect" style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #dadce0; background: white;">
+          <option value="gemini-2.5-flash-image">Nano Banana</option>
+          <option value="gemini-3-pro-image-preview">Nano Banana Pro</option>
+        </select>
+      </div>
+
+      <div class="section">
+        <h3>AI Prompt</h3>
+        <p class="small-text" style="margin-bottom: 8px;">Customize how the AI adds people.</p>
+        <textarea id="promptInput" rows="3" placeholder="Edit this image to make it look like there are happy people enjoying the hotel. Return the result as a generated image."></textarea>
+        <div style="display: flex; gap: 10px; margin-top: 8px;">
+          <button id="savePromptBtn" style="flex: 1;">Save</button>
+          <button id="resetPromptBtn" style="flex: 1; background-color: #5f6368;">Reset</button>
+        </div>
+      </div>
+
+      <div id="status"></div>
+
+      <hr>
+
+      <div class="footer">
+        <p>Made with love by <a href="https://x.com/MoneOunchPan" target="_blank">@MoneOunchPan</a></p>
+        <a href="https://buy.stripe.com/8x23cw1xvfVr3oEbKvawo01" target="_blank" class="coffee-link">☕ Buy me a coffee</a>
+        <p class="support-text">Your support means the world to me, keeps me fueled to create more and also helps the servers running longer. ❤️</p>
+        <p class="disclaimer-text">Disclaimer: Not affiliated with Google. AI results may vary.</p>
+      </div>
+
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
