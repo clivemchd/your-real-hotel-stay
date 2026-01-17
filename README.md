@@ -14,7 +14,7 @@
     <b>No more ghost towns. See the vibe before you book.</b>
   </p>
 
-  [🎥 Watch the Installation Tutorial](https://www.youtube.com/watch?v=NH5CPm9pyts)
+  [🎥 Watch the Installation Tutorial](https://www.youtube.com/watch?v=NH5CPm9pyts) <br/> <br/>
   [🎥 Watch the Demo](https://x.com/MoneOunchPan/status/1998125056837226969?s=20)
 </div>
 
