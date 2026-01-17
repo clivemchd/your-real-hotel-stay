@@ -15,6 +15,7 @@
   </p>
 
   [🎥 Watch the Installation Tutorial](https://www.youtube.com/watch?v=NH5CPm9pyts)
+  [🎥 Watch the Demo](https://x.com/MoneOunchPan/status/1998125056837226969?s=20)
 </div>
 
 ---
